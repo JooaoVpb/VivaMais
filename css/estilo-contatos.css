@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(202, 191, 177);
+}
+
+.topo {
+    background-image: url(../imagens/bg-1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.topo nav ul {
+    margin: 180px 10px 0 0;
+    text-align: left;
+}
+
+.topo nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 7px;
+}
+
+.topo nav a {
+    background-color: rgba(0,0,0, .3);
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid white;
+}
+
+.topo  nav a:hover {
+    background: rgba(0,0,0, .6);
+}
+
+.topo2 {
+    margin: 50px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+
+.topo2 h1 {
+    font-size: 45px;
+    text-shadow: 2px 2px 2px white;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.topo2 p {
+    background-color: rgba(71, 68, 68, 0.7);
+    font-size: 12px;
+    display: inline-block;
+    padding: 11px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+/*conteudo*/ 
+
+main {
+    max-width: 860px;
+    margin: auto;
+}
+
+section{
+    padding-top: 17px;
+    width: 100%;
+}
+
+article {
+    padding: 16px;
+    margin-bottom: 30px;
+    background-color: rgb(221, 210, 192);
+}
+
+article h2 {
+    text-transform: uppercase;
+    font-size: 23px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(94, 94, 94);
+    padding: 10px;   
+    border-bottom: 2px solid white;   
+    background-color: #b6b195;
+    margin-top: 0;
+    
+}
+
+article ul {
+    text-align: left;
+}
+
+article li{ 
+    font-family: monospace;
+    font-size: 15px;
+    padding: 8px;
+    list-style-type: none;
+    border-bottom: 2px solid white;
+    margin-left: 8px;
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+.rodape {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+}
+
+
+
+
